@@ -5,10 +5,14 @@ body{
     opacity: unset;
 }
 
-h1 {
-   text-align: center;
-   text-shadow: 3px;
-   padding-top: 15px;
+text-align: center;
+  color: #e215c7;
+  border: lavender;
+  background-position: center;
+}
+
+h1:hover{
+  color: #dd7fd0;
 }
 
 .profile{
@@ -42,30 +46,14 @@ border: 5px solid black;
 
 }
 
-.contact{ 
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 30vh;
-  min-width: 30vw;
-  margin-bottom:50px;
-  margin-top: 70px;
-  background-color: whitesmoke;
-  align-items: center;
-  border-radius: 35px;
 
-
-}
-
-/* Style inputs with type="text", select elements and textareas */
 input[type=5text], select, textarea {
-  width: 50%; /* Full width */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 10px;
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: rgb(71, 5, 49);
   color: white;
@@ -73,12 +61,11 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: #e215c7;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   background-color:rgb(219, 172, 219);
   width: 350px;
